@@ -1,3 +1,21 @@
+# BIOMD0000000084: 
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000084.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000084.git@20140916`
+
+
+# Model Notes
 
 
 ** [SBML](http://www.sbml.org/) level 2 code generated for the JWS Online project by Jacky Snoep using [PySCeS](http://pysces.sourceforge.net/)   
@@ -12,4 +30,5 @@ _Biomodels Curation_ The model reproduces the time series depicted in Fig 2 of
 the paper. Also, by varying the values of Vmax for the second kinase (k5) the
 time series of X3P as shown in Fig3 can be reproduced. The model was
 successfully tested on MathSBML and Jarnac.
+
 
